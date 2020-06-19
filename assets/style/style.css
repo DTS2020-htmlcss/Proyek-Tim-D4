@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+header {
+    height: 65px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 0px 29px 0px rgba(129,133,177,1);
+    background-color: #272528;
+    color: #8185B1;
+    position: sticky;
+    top: 0;
+    border: 1px solid red;
+}
+
+header a {
+    text-decoration: none;
+    color: #8185B1;
+}
+
+header a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.header-left {
+    float:  left;
+    line-height: 65px;
+    margin-left: 20px;
+}
+
+.header-right {
+    float: right;
+    line-height: 65px;
+}
+
+.header-right li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    border: 1px solid red;
+}
+
+main * {
+    border: 1px solid red;
+}
+
+.top-wrapper {
+    height: 100vh;
+}
+
+.top-wrapper img {
+    width: 400px;
+}
+
+#list {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.film{
+    box-shadow: 0px 0px 29px 0px rgba(129,133,177,1);
+}
+
+.films {
+	padding-bottom: 500px;
+	float: center;
+}
+
+
+.films h3{
+	float: centre;
+}
+
+.film-img {
+	width: 250px;
+}
+
+.box{
+  float: left;
+  width: 50%;
+  border: 50px;
+  background-color:#bbb
+}
+
+
+
+.container-tambahan {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.biodata {
+    float: left;
+    height: 400px;
+    width: 20%;
+}
+
+.biodata img {
+	width: 200px;
+}
+
+#tentangkami {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* footer jadiin class paling bawah ya */
+
+footer {
+    padding: 40px;
+    color: #8185B1;
+    background-color: #272528;
+    text-align: center;
+    box-shadow: 0px 0px 29px 0px rgba(129,133,177,1);
+}
